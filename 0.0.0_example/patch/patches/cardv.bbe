@@ -1,0 +1,8 @@
+#proj/rootfs.dir/bootconfig/bin/cardv
+
+#битрейт
+#30MB->40MB
+#cardvSetVideoRecordPipe
+#00055086 4C F2 80 32  MOVW   R2, #0xC380
+#00055090 C0 F2 C9 12  MOVT   R2, #0x1C9
+s/\x4C\xF2\x80\x32\x03\x66\x18\xBF\x76\x46\xC0\xF2\xC9\x12/\x45\xF6\x00\x22\x03\x66\x18\xBF\x76\x46\xC0\xF2\x62\x22/

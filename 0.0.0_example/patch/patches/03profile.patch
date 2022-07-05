@@ -1,0 +1,9 @@
+--- proj/rootfs.dir/etc/profile   2022-06-10 14:10:02.751278796 +0500
++++ proj/rootfs.dir/etc/profile   2022-06-09 23:15:48.495594885 +0500
+@@ -8,6 +8,3 @@
+ export TERMINFO=/config/terminfo
+ export PATH=$PATH:/bootconfig/bin:/customer/UI/bin:/customer/wifi
+ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/customer/UI/lib:/customer/wifi/lib
+-if [ -e /bootconfig/demo.sh ]; then
+-    /bootconfig/demo.sh
+-fi;

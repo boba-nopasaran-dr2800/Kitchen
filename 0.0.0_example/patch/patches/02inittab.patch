@@ -1,0 +1,6 @@
+--- proj/rootfs.dir/etc/inittab   2022-06-10 14:10:02.751278796 +0500
++++ proj/rootfs.dir/etc/inittab   2022-06-09 23:15:48.495594885 +0500
+@@ -1,2 +1,2 @@
+ ::sysinit:/etc/init.d/rcS
+-::respawn:-/bin/sh
++::respawn:-/bin/sh /etc/loop.sh
